@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module implements communication with FreeIPA server.
+"""This module implements communication with Flowdock.
 
 Copyright (C) 2017 Peter Pakos <peter.pakos@wandisco.com>
 

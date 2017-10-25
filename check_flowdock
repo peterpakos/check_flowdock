@@ -33,7 +33,7 @@ class Main(object):
 
     def __init__(self):
         self._args = self._parse_args()
-        self._ldap = WDLdap(CONFIG.IPA_SERVER, CONFIG.BIND_DN, CONFIG.BIND_PW)
+        self._ldap = WDLdap(CONFIG.LDAP_SERVER, CONFIG.BIND_DN, CONFIG.BIND_PW)
         self._flowdock = WDFlowdock(CONFIG.API_KEY)
 
     def _parse_args(self):
